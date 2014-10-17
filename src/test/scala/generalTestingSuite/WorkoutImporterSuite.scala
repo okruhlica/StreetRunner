@@ -1,14 +1,13 @@
-package reverseGeoSuite
+package generalTestingSuite
 
 import org.scalatest.FunSuite
 import org.junit.runner.RunWith
 import org.scalatest.junit.JUnitRunner
-import core.RouteLoader
-import core.Route
-
+import workout.RouteLoader
+import workout.Route
 
 @RunWith(classOf[JUnitRunner])
-class StreetImporterSuite extends FunSuite {
+class WorkoutImporterSuite extends FunSuite {
   
    def loadRouteFor(gpxName:String):Route = {
        val mockGpx = getClass.getResource(gpxName)	   
@@ -26,8 +25,7 @@ class StreetImporterSuite extends FunSuite {
 	   assert(route.points(2).lon == 17.0865053)
 	   assert(route.points(2).lat == 48.1528749)
    }
-   
-   
+      
    test("RouteLoader loads a gpx file correctly (2)") {     
 	   val route = loadRouteFor("../resources/gpx02.gpx")
 	   
@@ -37,6 +35,9 @@ class StreetImporterSuite extends FunSuite {
 	   assert(route.points(5).lon == -121.7252347)
 	   assert(route.points(5).lat == 45.4416576)
    }
-   
+    
+   test("RouteLoader loads a gpx file with no points correctly (3)") {     
+	   val route = loadRouteFor("../resources/gpx03-nopoints.gpx")
+	   assert(route.points.length == 0)
+   }
 }
-

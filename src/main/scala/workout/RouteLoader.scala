@@ -1,4 +1,7 @@
-package core
+package workout
+
+import workout.RoutePoint
+import workout.Route
 
 class RouteLoader { 
   
