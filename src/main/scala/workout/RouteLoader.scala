@@ -1,8 +1,5 @@
 package workout
 
-import workout.RoutePoint
-import workout.Route
-
 class RouteLoader { 
   
   def load(gpxFile:String):Route = {

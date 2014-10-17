@@ -1,16 +1,20 @@
 {
-   "status" : "OK",
    "results" : [
       {
          "address_components" : [
             {
-               "long_name" : "51",
-               "short_name" : "51",
+               "long_name" : "13",
+               "short_name" : "13",
                "types" : [ "street_number" ]
             },
             {
-               "long_name" : "Tichá",
-               "short_name" : "Tichá",
+               "long_name" : "4194",
+               "short_name" : "4194",
+               "types" : [ "premise" ]
+            },
+            {
+               "long_name" : "Mozartova",
+               "short_name" : "Mozartova",
                "types" : [ "route" ]
             },
             {
@@ -34,366 +38,26 @@
                "types" : [ "postal_code" ]
             }
          ],
-         "formatted_address" : "Tichá 51, 811 02 Bratislava, Slovakia",
+         "formatted_address" : "Mozartova 4194/13, 811 02 Bratislava, Slovakia",
          "geometry" : {
-            "bounds" : {
-               "northeast" : {
-                  "lat" : 48.1510291,
-                  "lng" : 17.0838931
-               },
-               "southwest" : {
-                  "lat" : 48.1509553,
-                  "lng" : 17.0832296
-               }
-            },
             "location" : {
-               "lat" : 48.1510115,
-               "lng" : 17.0836226
+               "lat" : 48.1529647,
+               "lng" : 17.0863413
             },
-            "location_type" : "RANGE_INTERPOLATED",
+            "location_type" : "ROOFTOP",
             "viewport" : {
                "northeast" : {
-                  "lat" : 48.15234118029149,
-                  "lng" : 17.0849103302915
+                  "lat" : 48.1543136802915,
+                  "lng" : 17.0876902802915
                },
                "southwest" : {
-                  "lat" : 48.14964321970849,
-                  "lng" : 17.0822123697085
+                  "lat" : 48.1516157197085,
+                  "lng" : 17.0849923197085
                }
             }
          },
          "types" : [ "street_address" ]
-      },
-      {
-         "address_components" : [
-            {
-               "long_name" : "811 02",
-               "short_name" : "811 02",
-               "types" : [ "postal_code" ]
-            },
-            {
-               "long_name" : "Bratislava",
-               "short_name" : "Bratislava",
-               "types" : [ "locality", "political" ]
-            },
-            {
-               "long_name" : "Slovakia",
-               "short_name" : "SK",
-               "types" : [ "country", "political" ]
-            }
-         ],
-         "formatted_address" : "811 02 Bratislava, Slovakia",
-         "geometry" : {
-            "bounds" : {
-               "northeast" : {
-                  "lat" : 48.1629175,
-                  "lng" : 17.1182861
-               },
-               "southwest" : {
-                  "lat" : 48.1382267,
-                  "lng" : 17.0737366
-               }
-            },
-            "location" : {
-               "lat" : 48.1487657,
-               "lng" : 17.0833155
-            },
-            "location_type" : "APPROXIMATE",
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 48.1629175,
-                  "lng" : 17.1182861
-               },
-               "southwest" : {
-                  "lat" : 48.1382267,
-                  "lng" : 17.0737366
-               }
-            }
-         },
-         "types" : [ "postal_code" ]
-      },
-      {
-         "address_components" : [
-            {
-               "long_name" : "Old Town",
-               "short_name" : "Old Town",
-               "types" : [ "sublocality_level_1", "sublocality", "political" ]
-            },
-            {
-               "long_name" : "Bratislava",
-               "short_name" : "Bratislava",
-               "types" : [ "locality", "political" ]
-            },
-            {
-               "long_name" : "Bratislava Region",
-               "short_name" : "Bratislava Region",
-               "types" : [ "administrative_area_level_1", "political" ]
-            },
-            {
-               "long_name" : "Slovakia",
-               "short_name" : "SK",
-               "types" : [ "country", "political" ]
-            }
-         ],
-         "formatted_address" : "Old Town, Slovakia",
-         "geometry" : {
-            "bounds" : {
-               "northeast" : {
-                  "lat" : 48.1742898,
-                  "lng" : 17.132332
-               },
-               "southwest" : {
-                  "lat" : 48.1382267,
-                  "lng" : 17.0727001
-               }
-            },
-            "location" : {
-               "lat" : 48.148598,
-               "lng" : 17.1077475
-            },
-            "location_type" : "APPROXIMATE",
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 48.1742898,
-                  "lng" : 17.132332
-               },
-               "southwest" : {
-                  "lat" : 48.1382267,
-                  "lng" : 17.0727001
-               }
-            }
-         },
-         "types" : [ "sublocality_level_1", "sublocality", "political" ]
-      },
-      {
-         "address_components" : [
-            {
-               "long_name" : "Bratislava I",
-               "short_name" : "Bratislava I",
-               "types" : [ "administrative_area_level_2", "political" ]
-            },
-            {
-               "long_name" : "Bratislava Region",
-               "short_name" : "Bratislava Region",
-               "types" : [ "administrative_area_level_1", "political" ]
-            },
-            {
-               "long_name" : "Slovakia",
-               "short_name" : "SK",
-               "types" : [ "country", "political" ]
-            }
-         ],
-         "formatted_address" : "Bratislava I, Slovakia",
-         "geometry" : {
-            "bounds" : {
-               "northeast" : {
-                  "lat" : 48.1742898,
-                  "lng" : 17.132332
-               },
-               "southwest" : {
-                  "lat" : 48.1382267,
-                  "lng" : 17.0727001
-               }
-            },
-            "location" : {
-               "lat" : 48.147136,
-               "lng" : 17.1023435
-            },
-            "location_type" : "APPROXIMATE",
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 48.1742898,
-                  "lng" : 17.132332
-               },
-               "southwest" : {
-                  "lat" : 48.1382267,
-                  "lng" : 17.0727001
-               }
-            }
-         },
-         "types" : [ "administrative_area_level_2", "political" ]
-      },
-      {
-         "address_components" : [
-            {
-               "long_name" : "Bratislava",
-               "short_name" : "Bratislava",
-               "types" : [ "sublocality_level_1", "sublocality", "political" ]
-            },
-            {
-               "long_name" : "Bratislava",
-               "short_name" : "Bratislava",
-               "types" : [ "locality", "political" ]
-            },
-            {
-               "long_name" : "Bratislava Region",
-               "short_name" : "Bratislava Region",
-               "types" : [ "administrative_area_level_1", "political" ]
-            },
-            {
-               "long_name" : "Slovakia",
-               "short_name" : "SK",
-               "types" : [ "country", "political" ]
-            }
-         ],
-         "formatted_address" : "Bratislava, Slovakia",
-         "geometry" : {
-            "bounds" : {
-               "northeast" : {
-                  "lat" : 48.2256496,
-                  "lng" : 17.2273703
-               },
-               "southwest" : {
-                  "lat" : 48.1060913,
-                  "lng" : 17.0067274
-               }
-            },
-            "location" : {
-               "lat" : 48.1458992,
-               "lng" : 17.1071342
-            },
-            "location_type" : "APPROXIMATE",
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 48.2256496,
-                  "lng" : 17.2273703
-               },
-               "southwest" : {
-                  "lat" : 48.1060913,
-                  "lng" : 17.0067274
-               }
-            }
-         },
-         "types" : [ "sublocality_level_1", "sublocality", "political" ]
-      },
-      {
-         "address_components" : [
-            {
-               "long_name" : "Bratislava",
-               "short_name" : "Bratislava",
-               "types" : [ "locality", "political" ]
-            },
-            {
-               "long_name" : "Bratislava Region",
-               "short_name" : "Bratislava Region",
-               "types" : [ "administrative_area_level_1", "political" ]
-            },
-            {
-               "long_name" : "Slovakia",
-               "short_name" : "SK",
-               "types" : [ "country", "political" ]
-            }
-         ],
-         "formatted_address" : "Bratislava, Slovakia",
-         "geometry" : {
-            "bounds" : {
-               "northeast" : {
-                  "lat" : 48.2650461,
-                  "lng" : 17.2856594
-               },
-               "southwest" : {
-                  "lat" : 48.0065146,
-                  "lng" : 16.9461747
-               }
-            },
-            "location" : {
-               "lat" : 48.1458923,
-               "lng" : 17.1071373
-            },
-            "location_type" : "APPROXIMATE",
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 48.2650461,
-                  "lng" : 17.2856594
-               },
-               "southwest" : {
-                  "lat" : 48.0065146,
-                  "lng" : 16.9461747
-               }
-            }
-         },
-         "types" : [ "locality", "political" ]
-      },
-      {
-         "address_components" : [
-            {
-               "long_name" : "Bratislava Region",
-               "short_name" : "Bratislava Region",
-               "types" : [ "administrative_area_level_1", "political" ]
-            },
-            {
-               "long_name" : "Slovakia",
-               "short_name" : "SK",
-               "types" : [ "country", "political" ]
-            }
-         ],
-         "formatted_address" : "Bratislava Region, Slovakia",
-         "geometry" : {
-            "bounds" : {
-               "northeast" : {
-                  "lat" : 48.6543947,
-                  "lng" : 17.522104
-               },
-               "southwest" : {
-                  "lat" : 48.0066865,
-                  "lng" : 16.833182
-               }
-            },
-            "location" : {
-               "lat" : 48.3118304,
-               "lng" : 17.1973299
-            },
-            "location_type" : "APPROXIMATE",
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 48.6543947,
-                  "lng" : 17.522104
-               },
-               "southwest" : {
-                  "lat" : 48.0066865,
-                  "lng" : 16.833182
-               }
-            }
-         },
-         "types" : [ "administrative_area_level_1", "political" ]
-      },
-      {
-         "address_components" : [
-            {
-               "long_name" : "Slovakia",
-               "short_name" : "SK",
-               "types" : [ "country", "political" ]
-            }
-         ],
-         "formatted_address" : "Slovakia",
-         "geometry" : {
-            "bounds" : {
-               "northeast" : {
-                  "lat" : 49.61380510000001,
-                  "lng" : 22.5589339
-               },
-               "southwest" : {
-                  "lat" : 47.731159,
-                  "lng" : 16.8331821
-               }
-            },
-            "location" : {
-               "lat" : 48.669026,
-               "lng" : 19.699024
-            },
-            "location_type" : "APPROXIMATE",
-            "viewport" : {
-               "northeast" : {
-                  "lat" : 49.61380510000001,
-                  "lng" : 22.5589339
-               },
-               "southwest" : {
-                  "lat" : 47.731159,
-                  "lng" : 16.8331821
-               }
-            }
-         },
-         "types" : [ "country", "political" ]
       }
-   ]
+   ],
+   "status" : "OK"
 }
