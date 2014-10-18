@@ -2,7 +2,8 @@
 	"geocoding": {
 	    "api": {
 	    	"google": {
-	        	"key": "AIzaSyDDWSZy-CB5G07EW9W8HeYM1lygjStnwfk"
+	        	"key": "AIzaSyDDWSZy-CB5G07EW9W8HeYM1lygjStnwfk",
+	        	"url": "https://maps.googleapis.com/maps/api/geocode/json?latlng=%.15f,%.15f&location_type=%s&key=%s"
 	        }
 	    }
 	}

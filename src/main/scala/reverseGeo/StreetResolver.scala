@@ -2,5 +2,5 @@ package reverseGeo
 import core.Street
 
 trait StreetResolver {
-	def resolve(knownStreets:Array[Street])(lonlat:(Double,Double))
+	def resolve(lonlat:(Double,Double), testConditions:Seq[(String,String)]):String
 }
