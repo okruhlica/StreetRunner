@@ -3,8 +3,6 @@ import core.Street
 import scala.util.parsing.json._
 
 object StreetResolverGoogle extends StreetResolver{
-
-  val API_KEY = "AIzaSyDDWSZy-CB5G07EW9W8HeYM1lygjStnwfk"
  
   // @Unimplemented
   def resolve(knownStreets:Array[Street])(lonlat:(Double,Double)) = {}

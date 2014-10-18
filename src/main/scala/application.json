@@ -1,0 +1,9 @@
+{
+	"geocoding": {
+	    "api": {
+	    	"google": {
+	        	"key": "AIzaSyDDWSZy-CB5G07EW9W8HeYM1lygjStnwfk"
+	        }
+	    }
+	}
+}
